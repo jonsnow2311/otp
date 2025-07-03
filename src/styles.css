@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  width: 60px;
+  height: 60px;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  border-radius: 12px;
+  background: #e0e5ec;
+  box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
+  outline: none;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+input:focus {
+  box-shadow: inset 6px 6px 10px #a3b1c6, inset -6px -6px 10px #ffffff;
+  background: #e0e5ec;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
